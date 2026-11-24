@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" role="img" aria-label="Mặt lưng iPhone với cụm camera">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef1f4"/>
+      <stop offset="1" stop-color="#d5dae0"/>
+    </linearGradient>
+  </defs>
+  <!-- Thân máy -->
+  <rect x="3" y="3" width="294" height="594" rx="50" fill="url(#body)" stroke="#b9bfc6" stroke-width="3"/>
+  <!-- Cụm camera -->
+  <rect x="24" y="24" width="132" height="132" rx="34" fill="#c9cfd6" stroke="#b0b7bf" stroke-width="2"/>
+  <!-- Ống kính -->
+  <g>
+    <circle cx="62" cy="62" r="26" fill="#2c2c2e"/>
+    <circle cx="62" cy="62" r="14" fill="#1b2a40"/>
+    <circle cx="57" cy="57" r="4" fill="#fff" opacity="0.5"/>
+
+    <circle cx="62" cy="118" r="26" fill="#2c2c2e"/>
+    <circle cx="62" cy="118" r="14" fill="#1b2a40"/>
+    <circle cx="57" cy="113" r="4" fill="#fff" opacity="0.5"/>
+
+    <circle cx="118" cy="90" r="26" fill="#2c2c2e"/>
+    <circle cx="118" cy="90" r="14" fill="#1b2a40"/>
+    <circle cx="113" cy="85" r="4" fill="#fff" opacity="0.5"/>
+  </g>
+  <!-- Đèn flash và micro -->
+  <circle cx="122" cy="44" r="9" fill="#fff4cc" stroke="#d8c98f" stroke-width="1.5"/>
+  <circle cx="122" cy="136" r="4" fill="#8e8e93"/>
+  <!-- Nút bên hông -->
+  <rect x="0" y="150" width="4" height="40" rx="2" fill="#b9bfc6"/>
+  <rect x="0" y="205" width="4" height="60" rx="2" fill="#b9bfc6"/>
+</svg>

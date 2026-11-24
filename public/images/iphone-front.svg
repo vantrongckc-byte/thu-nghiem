@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" role="img" aria-label="Mặt trước iPhone">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5ac8fa"/>
+      <stop offset="0.55" stop-color="#0071e3"/>
+      <stop offset="1" stop-color="#5e5ce6"/>
+    </linearGradient>
+  </defs>
+  <!-- Thân máy -->
+  <rect x="2" y="2" width="296" height="596" rx="50" fill="#1d1d1f"/>
+  <!-- Màn hình -->
+  <rect x="12" y="12" width="276" height="576" rx="40" fill="url(#wall)"/>
+  <!-- Dynamic Island -->
+  <rect x="110" y="26" width="80" height="24" rx="12" fill="#000"/>
+  <!-- Thanh trạng thái -->
+  <text x="44" y="44" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#fff">9:41</text>
+  <rect x="236" y="34" width="24" height="11" rx="3" fill="none" stroke="#fff" stroke-width="1.5"/>
+  <rect x="238" y="36" width="17" height="7" rx="1.5" fill="#fff"/>
+
+  <!-- Lưới ứng dụng -->
+  <g>
+    <rect x="26" y="90" width="50" height="50" rx="12" fill="#34c759"/>
+    <rect x="92" y="90" width="50" height="50" rx="12" fill="#ff9500"/>
+    <rect x="158" y="90" width="50" height="50" rx="12" fill="#ffffff"/>
+    <rect x="224" y="90" width="50" height="50" rx="12" fill="#ff3b30"/>
+
+    <rect x="26" y="166" width="50" height="50" rx="12" fill="#ffcc00"/>
+    <rect x="92" y="166" width="50" height="50" rx="12" fill="#af52de"/>
+    <rect x="158" y="166" width="50" height="50" rx="12" fill="#1d1d1f"/>
+    <rect x="224" y="166" width="50" height="50" rx="12" fill="#30b0c7"/>
+
+    <rect x="26" y="242" width="50" height="50" rx="12" fill="#ff2d55"/>
+    <rect x="92" y="242" width="50" height="50" rx="12" fill="#ffffff"/>
+    <rect x="158" y="242" width="50" height="50" rx="12" fill="#5856d6"/>
+    <rect x="224" y="242" width="50" height="50" rx="12" fill="#34c759"/>
+
+    <rect x="26" y="318" width="50" height="50" rx="12" fill="#8e8e93"/>
+    <rect x="92" y="318" width="50" height="50" rx="12" fill="#ff9500"/>
+    <rect x="158" y="318" width="50" height="50" rx="12" fill="#00c7be"/>
+    <rect x="224" y="318" width="50" height="50" rx="12" fill="#ffffff"/>
+  </g>
+  <!-- Ký hiệu nhỏ trên vài ứng dụng -->
+  <circle cx="183" cy="115" r="13" fill="none" stroke="#ff3b30" stroke-width="4"/>
+  <circle cx="183" cy="191" r="12" fill="none" stroke="#fff" stroke-width="3"/>
+  <circle cx="183" cy="191" r="5" fill="#fff"/>
+  <path d="M106 267 h22 M117 256 v22" stroke="#0071e3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M238 343 l8 8 l14 -16" fill="none" stroke="#34c759" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Chấm trang -->
+  <circle cx="142" cy="470" r="3.5" fill="#fff"/>
+  <circle cx="158" cy="470" r="3.5" fill="#fff" opacity="0.5"/>
+
+  <!-- Dock -->
+  <rect x="18" y="496" width="264" height="74" rx="28" fill="#fff" opacity="0.28"/>
+  <rect x="26" y="508" width="50" height="50" rx="12" fill="#34c759"/>
+  <rect x="92" y="508" width="50" height="50" rx="12" fill="#0a84ff"/>
+  <rect x="158" y="508" width="50" height="50" rx="12" fill="#ffffff"/>
+  <rect x="224" y="508" width="50" height="50" rx="12" fill="#ff9500"/>
+  <path d="M41 525 q10 -6 20 0 v10 q-10 6 -20 0 z" fill="#fff"/>
+  <rect x="104" y="522" width="26" height="20" rx="4" fill="#fff"/>
+  <circle cx="183" cy="533" r="14" fill="none" stroke="#0071e3" stroke-width="3"/>
+  <path d="M236 524 h26 M236 533 h26 M236 542 h18" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>

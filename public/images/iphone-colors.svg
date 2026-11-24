@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="iPhone với bốn màu: đen, trắng, xanh, hồng">
+  <defs>
+    <g id="cam">
+      <rect x="10" y="10" width="46" height="46" rx="13" fill="#000" opacity="0.12"/>
+      <circle cx="24" cy="24" r="9" fill="#2c2c2e"/>
+      <circle cx="24" cy="42" r="9" fill="#2c2c2e"/>
+      <circle cx="44" cy="33" r="4" fill="#fff4cc"/>
+    </g>
+  </defs>
+  <g font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="16" fill="#1d1d1f" text-anchor="middle">
+    <!-- Đen -->
+    <g transform="translate(40 30)">
+      <rect width="110" height="220" rx="24" fill="#2c2c2e"/>
+      <rect x="10" y="10" width="46" height="46" rx="13" fill="#fff" opacity="0.18"/>
+      <use href="#cam"/>
+    </g>
+    <text x="95" y="282">Đen</text>
+
+    <!-- Trắng -->
+    <g transform="translate(190 30)">
+      <rect width="110" height="220" rx="24" fill="#f7f7f9" stroke="#d1d1d6" stroke-width="2"/>
+      <use href="#cam"/>
+    </g>
+    <text x="245" y="282">Trắng</text>
+
+    <!-- Xanh -->
+    <g transform="translate(340 30)">
+      <rect width="110" height="220" rx="24" fill="#a9c7e3"/>
+      <use href="#cam"/>
+    </g>
+    <text x="395" y="282">Xanh</text>
+
+    <!-- Hồng -->
+    <g transform="translate(490 30)">
+      <rect width="110" height="220" rx="24" fill="#f5d0d8"/>
+      <use href="#cam"/>
+    </g>
+    <text x="545" y="282">Hồng</text>
+  </g>
+</svg>
